@@ -1,0 +1,27 @@
+{
+  "name": "n8n-nodes-pdf-merge-url",
+  "version": "1.0.0",
+  "description": "n8n community node: merge multiple PDF files from URLs",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "n8n-nodes",
+    "n8n-community-node",
+    "pdf",
+    "merge",
+    "url"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.1",
+    "typescript": "^5.4.3"
+  }
+}
